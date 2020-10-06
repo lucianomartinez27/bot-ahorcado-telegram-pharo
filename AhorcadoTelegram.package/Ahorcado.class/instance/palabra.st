@@ -1,0 +1,3 @@
+acccessing
+palabra
+	^ palabra

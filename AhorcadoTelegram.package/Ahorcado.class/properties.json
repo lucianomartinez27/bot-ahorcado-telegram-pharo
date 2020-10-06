@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "AhorcadoTelegram",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"palabra",
+		"aciertos"
+	],
+	"name" : "Ahorcado",
+	"type" : "normal"
+}

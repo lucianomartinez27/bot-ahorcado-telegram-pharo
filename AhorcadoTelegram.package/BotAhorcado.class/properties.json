@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Bottlegram",
+	"category" : "AhorcadoTelegram-Bot",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ahorcado"
+	],
+	"name" : "BotAhorcado",
+	"type" : "normal"
+}

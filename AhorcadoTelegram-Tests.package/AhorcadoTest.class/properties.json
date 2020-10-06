@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "AhorcadoTelegram-Tests",
+	"classinstvars" : [
+		"ahorcado"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"ahorcado"
+	],
+	"name" : "AhorcadoTest",
+	"type" : "normal"
+}
