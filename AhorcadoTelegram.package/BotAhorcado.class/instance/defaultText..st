@@ -2,7 +2,7 @@ action
 defaultText: unMensaje
 	| letra |
 	letra := unMensaje text.
-	letra size = 1
-		ifFalse: [ unMensaje answer: 'Ingrese sólo una letra.' ]
-		ifTrue: [ ahorcado chequearLetra: letra.
+	(self chequearSiLaLetraEsValida: letra)
+		ifFalse: [ unMensaje answer: 'Ingrese una letra válida.' ]
+		ifTrue: [ ahorcado letraFueAdivinada: letra.
 			unMensaje send: ahorcado generarPlantilla ]

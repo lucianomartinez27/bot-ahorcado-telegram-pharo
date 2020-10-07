@@ -1,3 +1,3 @@
 testing
-chequearLetra: aCharacter 
+letraFueAdivinada: aCharacter 
 	^ aciertos includes: (aCharacter asString).
