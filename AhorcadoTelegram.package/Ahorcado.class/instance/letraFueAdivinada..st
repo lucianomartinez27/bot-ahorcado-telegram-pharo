@@ -1,3 +1,3 @@
 testing
-letraFueAdivinada: aCharacter 
-	^ aciertos includes: (aCharacter asString).
+letraFueAdivinada: letra 
+	^ aciertos includes: (letra asString).
