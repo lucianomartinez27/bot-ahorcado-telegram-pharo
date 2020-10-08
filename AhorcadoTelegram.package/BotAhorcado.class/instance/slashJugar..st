@@ -1,3 +1,3 @@
-as yet unclassified
+action
 slashJugar: aBottleMessage 
-	self agregarJugador: aBottleMessage id.
+	self agregarJugador: aBottleMessage chat id.

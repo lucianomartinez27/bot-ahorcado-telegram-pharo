@@ -1,8 +1,9 @@
 action
 defaultText: unMensaje
-	| letra |
+	| letra jugador|
 	letra := unMensaje text.
-	(self chequearSiLaLetraEsValida: letra)
+	jugador := jugadores at: unMensaje chat id.
+	(jugador chequearSiLaLetraEsValida: letra)
 		ifFalse: [ unMensaje answer: 'Ingrese una letra válida.' ]
-		ifTrue: [ ahorcado letraFueAdivinada: letra.
-			unMensaje send: ahorcado generarPlantilla ]
+		ifTrue: [ jugador chequearLetra: letra.
+			unMensaje send: jugador generarPlantilla ]

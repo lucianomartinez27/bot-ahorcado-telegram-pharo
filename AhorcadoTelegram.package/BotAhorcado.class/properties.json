@@ -6,7 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ahorcado",
 		"jugadores"
 	],
 	"name" : "BotAhorcado",
