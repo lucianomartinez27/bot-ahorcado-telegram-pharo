@@ -1,3 +1,3 @@
 accesing
 agregarJugador: idUsuario
-	self jugadores at: idUsuario put: JugadorAhorcado new.
+	self jugadores at: idUsuario put: Ahorcado new.
