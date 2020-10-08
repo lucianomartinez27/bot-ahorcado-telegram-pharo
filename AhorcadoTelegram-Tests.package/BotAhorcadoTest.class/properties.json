@@ -1,14 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "Bottlegram",
-	"category" : "AhorcadoTelegram-Bot",
+	"super" : "TestCase",
+	"category" : "AhorcadoTelegram-Tests",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"ahorcado",
-		"jugadores"
+		"ahorcado"
 	],
-	"name" : "BotAhorcado",
+	"name" : "BotAhorcadoTest",
 	"type" : "normal"
 }
