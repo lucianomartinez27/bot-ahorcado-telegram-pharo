@@ -1,5 +1,5 @@
 initialization
 initialize 
-	aciertos := OrderedCollection new.
-	errores := OrderedCollection new.
+	aciertos := Set new.
+	errores := Set new.
 	self establecerPalabra: 'palabra'
