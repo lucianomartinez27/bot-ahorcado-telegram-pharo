@@ -1,4 +1,4 @@
-setter
+accessing
 agregarAcierto: letra
 	(self chequearSiLaLetraEsValida: letra)
 		ifTrue: [ aciertos add: letra ]
