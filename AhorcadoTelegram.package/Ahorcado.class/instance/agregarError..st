@@ -1,3 +1,3 @@
-as yet unclassified
+setter
 agregarError: letra
 	errores add: letra.

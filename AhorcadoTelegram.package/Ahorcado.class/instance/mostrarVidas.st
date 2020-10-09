@@ -1,4 +1,4 @@
-as yet unclassified
+streams
 mostrarVidas
 	^ String
 		streamContents:
