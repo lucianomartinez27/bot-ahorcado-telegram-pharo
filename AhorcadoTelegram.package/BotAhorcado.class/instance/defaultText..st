@@ -6,4 +6,4 @@ defaultText: unMensaje
 	(jugador chequearSiLaLetraEsValida: letra)
 		ifFalse: [ unMensaje answer: 'Ingrese una letra válida.' ]
 		ifTrue: [ jugador chequearLetra: letra.
-			unMensaje send: jugador generarPlantilla ]
+			unMensaje send: jugador generarPlantilla. unMensaje send: jugador mostrarVidas. ]
