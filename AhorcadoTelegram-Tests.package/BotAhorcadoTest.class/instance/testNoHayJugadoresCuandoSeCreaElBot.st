@@ -1,3 +1,0 @@
-tests
-testNoHayJugadoresCuandoSeCreaElBot
-	self assert: BotAhorcado new jugadores isEmpty
